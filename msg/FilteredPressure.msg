@@ -1,0 +1,5 @@
+std_msgs/Header header
+
+float64 pressure_filtered
+float64 moving_average_value
+bool signal_smoothing
