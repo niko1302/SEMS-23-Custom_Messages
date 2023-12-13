@@ -1,0 +1,4 @@
+std_msgs/Header header
+
+float64 predict_or_measure
+float64 determinant_cov

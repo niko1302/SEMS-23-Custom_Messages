@@ -23,6 +23,7 @@ find_package(builtin_interfaces REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ThrustVertical.msg"
   "msg/FilteredPressure.msg"
+  "msg/CovarianceDetP.msg"
   DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
  )
  
